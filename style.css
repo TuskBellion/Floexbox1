@@ -2,11 +2,30 @@
     font-size: 1.5rem;
 
 }
+body{
+    margin: 0;
+}
 .container{
+    height: 300px;
     display: flex;
+   /* justify-content: flex-start; trái*/
+   /* justify-content: flex-end; phải*/
+   /* justify-content: center giữa */
+   /* justify-content: space-around;cách đều có khoảng trống 2 bên */
+   /* justify-content: space-between;cách đều 2 item ngoài sát lề */
+   /* justify-content: space-evenly;cách đều khoảng trắng bằng nhau */
+justify-content: space-evenly;
+/* align-items: flex-start;trên cùng */
+/* align-items: flex-end;dưới cùng */
+/* align-items: center;giữa */
+/* align-items: stretch;dãn ra hết chiều cao */
+/* align-items: baseline;căn theo dòng chữ */
     background-color: cyan;
-    gap: 40px;
+   
 }
 .box{
     background-color: blue;
+}
+.box1{
+    height: 200px;
 }
